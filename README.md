@@ -8,6 +8,12 @@ Welcome to SmartHintTextView!
 
 ----------
 
+### 举个栗子
+
+![enter image description here](http://ww1.sinaimg.cn/mw690/42a4fe0agw1esok0sarjpj20k00zk761.jpg)
+
+
+----------
 ### 博客
 
 [Abel Joo](http://abeljoo.github.io/)
