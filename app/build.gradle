@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.abeljoo.android.smarthinttextview"
-        minSdkVersion 1
+        minSdkVersion 7
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
@@ -21,4 +21,5 @@ android {
 
 dependencies {
     compile project(':library')
+    compile 'com.android.support:appcompat-v7:22.0.0'
 }
