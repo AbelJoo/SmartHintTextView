@@ -12,7 +12,7 @@ import android.widget.TextView;
  */
 public class SmartHintTextView extends TextView {
 
-    private CharSequence mHint;
+    private CharSequence mSmartHint;
 
     public SmartHintTextView(Context context) {
         super(context);
@@ -37,11 +37,11 @@ public class SmartHintTextView extends TextView {
         super.setText(text, type);
         if (TextUtils.isEmpty(text)
                 && TextUtils.isEmpty(getHint())
-                && !TextUtils.isEmpty(mHint)) {
-            setHint(mHint);
+                && !TextUtils.isEmpty(mSmartHint)) {
+            setHint(mSmartHint);
         } else if (!TextUtils.isEmpty(text)
                 && !TextUtils.isEmpty(getHint())) {
-            mHint = getHint();
+            mSmartHint = getHint();
             setHint(null);
         }
     }
